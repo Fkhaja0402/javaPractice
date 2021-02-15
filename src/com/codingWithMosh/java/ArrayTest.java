@@ -14,7 +14,13 @@ public class ArrayTest {
 		dayOfWeek[6]="Saturday";
 		dayOfWeek[7]="Monday";
 
+		String [] monthsInYear = new String[12];
+		monthsInYear[0]= "JAN";
+		monthsInYear[1]= "FEB";
+		monthsInYear[2]= "MAR";
+
 		System.out.print(Arrays.toString(dayOfWeek));
-		
+		System.out.println(Arrays.toString(monthsInYear));
 	}
+
 }
